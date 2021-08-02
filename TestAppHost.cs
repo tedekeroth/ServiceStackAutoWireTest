@@ -27,7 +27,7 @@ namespace TestSS
 
         public override Task ProcessRequest(HttpContext context, Func<Task> next)
         {
-            Logger?.Log("hmm");
+            Logger.Log("hmm");
 
             return base.ProcessRequest(context, next);
         }
